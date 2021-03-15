@@ -10,5 +10,5 @@ date: 2016-05-07 00:15:09
 
 业余爱好：吉他、尤克里里、养兔子
 
-![微信二维码](/img/wechat.jpg)
+![微信二维码](/uploads/wechat.jpg)
 <center>Wechat: 请务必注明从我的博客看到，并简单说一下添加原因~</center>
