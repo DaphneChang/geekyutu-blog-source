@@ -40,12 +40,12 @@ custom_file_path:
 # ---------------------------------------------------------------
 
 favicon:
-  small: /uploads/rabbit.png
-  medium: /uploads/rabbit.png
-  apple_touch_icon: /uploads/rabbit.png
-  safari_pinned_tab: /uploads/rabbit.png
-  #android_manifest: /uploads/manifest.json
-  #ms_browserconfig: /uploads/browserconfig.xml
+  small: /images/favicon.png
+  medium: /images/favicon.png
+  apple_touch_icon: /images/favicon.png
+  safari_pinned_tab: /images/favicon.png
+  #android_manifest: /images/manifest.json
+  #ms_browserconfig: /images/browserconfig.xml
 
 # Show multilingual switcher in footer.
 language_switcher: false
@@ -119,13 +119,14 @@ menu:
   home: / || fa fa-home
   文章: /archives/ || fa fa-pencil-alt
   相册: /photos/ || fa fa-images
-  杂货铺: /photos/ || fa fa-shopping-cart
+  杂货铺: /sale/ || fa fa-shopping-cart
   # tags: /tags/ || fa fa-tags
   # categories: /categories/ || fa fa-th
-  schedule: /schedule/ || fa fa-calendar-alt
+  # schedule: /schedule/ || fa fa-calendar-alt
   # sitemap: /sitemap.xml || fa fa-sitemap
   # commonweal: /404/ || fa fa-heartbeat
   关于我: /about/ || fa fa-user
+  纪念父亲: /miss-dad/ || fa fa-heartbeat 
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
@@ -165,7 +166,7 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-  url: /uploads/Daphne.jpg
+  url: /images/avatar.jpg
   # If true, the avatar will be dispalyed in circle.
   rounded: true
   # If true, the avatar will be rotated with the cursor.
@@ -207,6 +208,7 @@ links_settings:
 
 links:
   CSDN博客（旧）: https://blog.csdn.net/qq_15560063/
+  慕课网（学生时期）: https://www.imooc.com/u/269839
   牧云云: https://muyunyun.cn/
   香菇社长: http://www.siitake.cn/
   天道总司: http://zhaoyuxiang.cn/
@@ -254,16 +256,18 @@ post_meta:
   item_text: true
   created_at: true
   updated_at:
-    enable: true
+    enable: false
     another_day: true
   categories: true
 
 # Post wordcount display settings
 # Dependencies: https://github.com/theme-next/hexo-symbols-count-time
 symbols_count_time:
-  separated_meta: true
+  separated_meta: false
   item_text_post: true
   item_text_total: false
+  awl: 2
+  wpm: 300
 
 # Use icon instead of the symbol # to indicate the tag at the bottom of the post
 tag_icon: false
@@ -272,13 +276,13 @@ tag_icon: false
 # Front-matter variable (unsupport animation).
 reward_settings:
   # If true, reward will be displayed in every article by default.
-  enable: false
+  enable: true
   animation: false
-  #comment: Donate comment here.
+  comment: 感谢打赏的同学❤️ 请email我住址，寄🎁新年明信片/小礼物🎁给你们
 
 reward:
-  #wechatpay: /images/wechatpay.png
-  #alipay: /images/alipay.png
+  wechatpay: /images/wechatpay.png
+  alipay: /images/alipay.jpg
   #paypal: /images/paypal.png
   #bitcoin: /images/bitcoin.png
 
@@ -287,7 +291,7 @@ reward:
 follow_me:
   Twitter: https://twitter.com/username || fab fa-twitter
   Telegram: https://t.me/channel_name || fab fa-telegram
-  WeChat: /uploads/wechat.jpg || fab fa-weixin
+  WeChat: /images/wechat.jpg || fab fa-weixin
   RSS: /atom.xml || fa fa-rss
 
 # Related popular posts
@@ -359,7 +363,7 @@ mobile_layout_economy: false
 android_chrome_color: "#222"
 
 # Custom Logo (Do not support scheme Mist)
-custom_logo: #/uploads/custom-logo.jpg
+custom_logo: #/images/custom-logo.jpg
 
 codeblock:
   # Code Highlight theme
