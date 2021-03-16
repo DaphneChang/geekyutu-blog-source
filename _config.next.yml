@@ -40,12 +40,12 @@ custom_file_path:
 # ---------------------------------------------------------------
 
 favicon:
-  small: /images/favicon-16x16-next.png
-  medium: /images/favicon-32x32-next.png
-  apple_touch_icon: /images/apple-touch-icon-next.png
-  safari_pinned_tab: /images/logo.svg
-  #android_manifest: /images/manifest.json
-  #ms_browserconfig: /images/browserconfig.xml
+  small: /uploads/rabbit.png
+  medium: /uploads/rabbit.png
+  apple_touch_icon: /uploads/rabbit.png
+  safari_pinned_tab: /uploads/rabbit.png
+  #android_manifest: /uploads/manifest.json
+  #ms_browserconfig: /uploads/browserconfig.xml
 
 # Show multilingual switcher in footer.
 language_switcher: false
@@ -117,12 +117,12 @@ darkmode: false
 # External url should start with http:// or https://
 menu:
   home: / || fa fa-home
+  文章: /archives/ || fa fa-pencil-alt
   相册: /photos/ || fa fa-images
   杂货铺: /photos/ || fa fa-shopping-cart
   # tags: /tags/ || fa fa-tags
   # categories: /categories/ || fa fa-th
-  # archives: /archives/ || fa fa-archive
-  schedule: /schedule/ || fa fa-calendar
+  schedule: /schedule/ || fa fa-calendar-alt
   # sitemap: /sitemap.xml || fa fa-sitemap
   # commonweal: /404/ || fa fa-heartbeat
   关于我: /about/ || fa fa-user
@@ -182,7 +182,7 @@ social:
   GitHub: https://github.com/DaphneChang || fab fa-github
   Email: mailto:me@geekyutu.com || fa fa-envelope
   # 微博: https://weibo.com/243816034 || fab fa-weibo
-  Linkedin: https://www.linkedin.com/in/devzhangdan/ || fa fa-linkedin
+  领英: https://www.linkedin.com/in/devzhangdan/ || fab fa-linkedin
   知乎: https://www.zhihu.com/people/DaphneChang || fa fa-globe
   #Google: https://plus.google.com/yourname || fab fa-google
   #Twitter: https://twitter.com/yourname || fab fa-twitter
@@ -208,10 +208,10 @@ links_settings:
 links:
   CSDN博客（旧）: https://blog.csdn.net/qq_15560063/
   牧云云: https://muyunyun.cn/
-  Scott's Blog: http://www.chengfeilong.com/
-  Uhey's blog: http://u-hey.github.io/
   香菇社长: http://www.siitake.cn/
   天道总司: http://zhaoyuxiang.cn/
+  Scott's Blog: http://www.chengfeilong.com/
+  Uhey's blog: http://u-hey.github.io/
 
 
 # Table of Contents in the Sidebar
@@ -287,7 +287,7 @@ reward:
 follow_me:
   Twitter: https://twitter.com/username || fab fa-twitter
   Telegram: https://t.me/channel_name || fab fa-telegram
-  WeChat: /images/wechat_channel.jpg || fab fa-weixin
+  WeChat: /uploads/wechat.jpg || fab fa-weixin
   RSS: /atom.xml || fa fa-rss
 
 # Related popular posts
@@ -379,7 +379,7 @@ back2top:
   # Back to top in sidebar.
   sidebar: false
   # Scroll percent label in b2t button.
-  scrollpercent: false
+  scrollpercent: true
 
 # Reading progress bar
 reading_progress:
