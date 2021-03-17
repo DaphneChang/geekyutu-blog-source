@@ -1,8 +1,6 @@
 ---
-title: 404
+title: 页面找不到啦
 date: 2021-03-16 20:00:14
 ---
 
-<script src="//qzonestyle.gtimg.cn/qzone/hybrid/app/404/search_children.js"
-        charset="utf-8" homePageUrl="/" homePageName="Back to home">
-</script>
+![404](/images/404.png)
