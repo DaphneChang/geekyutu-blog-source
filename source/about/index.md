@@ -3,13 +3,14 @@ title: 关于我
 date: 2016-05-07 00:15:09
 ---
 
+![个人照片](/images/about.jpg)
 花花丹
-
 目前就职于拼多多，前端开发工程师
-曾就职于[东方财富网](https://about.eastmoney.com/)、[新蛋Newegg](http://nesc.newegg.com.cn/)、[杜邦Dupont](https://www.dupont.cn/about.html)、[飞思乐FaceArt](https://weibo.com/faceart)
-👩‍🎓学生时代做过行政助理、前台等等，👩‍💻毕业后专职研究**Web前端**领域
+曾就职于[东方财富网](https://about.eastmoney.com/)、[新蛋 Newegg](http://nesc.newegg.com.cn/)、[杜邦 Dupont](https://www.dupont.cn/about.html)、[飞思乐 FaceArt](https://weibo.com/faceart)
+👩‍🎓 学生时代做过行政助理、前台等等，👩‍💻 毕业后专职研究 **Web 前端** 领域
 
-主要技术栈为React.js, Node.js, 对CSS有独特的兴趣，欢迎交流技术或找我内推。
+主要技术栈为 React.js、Node.js，技术马马虎虎，比较热爱生活，同事形容是偏鬼马精灵那一挂的
+找我内推或是指导简历 is always welcome
 
 **一些作品**
 [https://en.pinduoduo.com/](https://en.pinduoduo.com/)
