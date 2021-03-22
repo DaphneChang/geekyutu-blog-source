@@ -31,8 +31,7 @@ custom_file_path:
   #bodyEnd: source/_data/body-end.swig
   #variable: source/_data/variables.styl
   #mixin: source/_data/mixins.styl
-  #style: source/_data/styles.styl
-
+  style: source/_data/styles.styl
 
 # ---------------------------------------------------------------
 # Site Information Settings
@@ -91,7 +90,6 @@ creative_commons:
   post: false
   language:
 
-
 # ---------------------------------------------------------------
 # Scheme Settings
 # ---------------------------------------------------------------
@@ -104,7 +102,6 @@ scheme: Pisces
 
 # Dark Mode
 darkmode: false
-
 
 # ---------------------------------------------------------------
 # Menu Settings
@@ -126,13 +123,12 @@ menu:
   # sitemap: /sitemap.xml || fa fa-sitemap
   # commonweal: /404/ || fa fa-heartbeat
   关于我: /about/ || fa fa-user
-  纪念父亲: /miss-dad/ || fa fa-heartbeat 
+  纪念父亲: /miss-dad/ || fa fa-heartbeat
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
   icons: true
   badges: false
-
 
 # ---------------------------------------------------------------
 # Sidebar Settings
@@ -161,7 +157,7 @@ sidebar:
   # Sidebar offset from top menubar in pixels (only for Pisces | Gemini).
   offset: 12
   # Enable sidebar on narrow view (only for Muse | Mist).
-  onmobile: false
+  onmobile: true
 
 # Sidebar Avatar
 avatar:
@@ -173,7 +169,7 @@ avatar:
   rotated: false
 
 # Posts / Categories / Tags in sidebar.
-site_state: true
+site_state: false
 
 # Social Links
 # Usage: `Key: permalink || icon`
@@ -183,8 +179,9 @@ social:
   GitHub: https://github.com/DaphneChang || fab fa-github
   Email: mailto:me@geekyutu.com || fa fa-envelope
   # 微博: https://weibo.com/243816034 || fab fa-weibo
-  领英: https://www.linkedin.com/in/devzhangdan/ || fab fa-linkedin
-  知乎: https://www.zhihu.com/people/DaphneChang || fa fa-globe
+  Linkedin: https://www.linkedin.com/in/devzhangdan/ || fab fa-linkedin
+  # 知乎: https://www.zhihu.com/people/DaphneChang || fa fa-globe
+  RSS: /atom.xml || fa fa-rss
   #Google: https://plus.google.com/yourname || fab fa-google
   #Twitter: https://twitter.com/yourname || fab fa-twitter
   #FB Page: https://www.facebook.com/yourname || fab fa-facebook
@@ -198,7 +195,6 @@ social_icons:
   icons_only: false
   transition: false
 
-
 # Blog rolls
 links_settings:
   icon: fa fa-link
@@ -209,13 +205,8 @@ links_settings:
 links:
   CSDN博客（旧）: https://blog.csdn.net/qq_15560063/
   慕课网（学生时期）: https://www.imooc.com/u/269839
-  牧云云: https://muyunyun.cn/
-  香菇社长: http://www.siitake.cn/
-  天道总司: http://zhaoyuxiang.cn/
-  Scott's Blog: http://www.chengfeilong.com/
-  Uhey's blog: http://u-hey.github.io/
-  itpika 博客: https://itpika.com
-
+  牧云云👩🏻‍❤️‍💋‍👨🏻: https://muyunyun.cn/
+  友情链接: /link
 
 # Table of Contents in the Sidebar
 # Front-matter variable (unsupport wrap expand_all).
@@ -238,7 +229,6 @@ chat:
   #service: tidio
   icon: fa fa-comment # Icon name in Font Awesome, set false to disable icon.
   text: Chat # Button text, change it as you wish.
-
 
 # ---------------------------------------------------------------
 # Post Settings
@@ -266,7 +256,9 @@ post_meta:
 symbols_count_time:
   separated_meta: false
   item_text_post: true
-  item_text_total: false
+  item_text_total: true
+  total_symbols: false
+  total_time: false
   awl: 2
   wpm: 300
 
@@ -290,8 +282,8 @@ reward:
 # Subscribe through Telegram Channel, Twitter, etc.
 # Usage: `Key: permalink || icon` (Font Awesome)
 follow_me:
-  Twitter: https://twitter.com/username || fab fa-twitter
-  Telegram: https://t.me/channel_name || fab fa-telegram
+  # 微博: https://weibo.com/243816034 || fab fa-weibo
+  知乎: https://www.zhihu.com/people/DaphneChang || fa fa-globe
   WeChat: /images/wechat.jpg || fab fa-weixin
   RSS: /atom.xml || fa fa-rss
 
@@ -319,7 +311,6 @@ post_edit:
 # Available values: left | right | false
 post_navigation: left
 
-
 # ---------------------------------------------------------------
 # Custom Page Settings
 # See: https://theme-next.org/docs/theme-settings/custom-pages
@@ -345,7 +336,6 @@ calendar:
   showDeleted: false
   singleEvents: true
   maxResults: 250
-
 
 # ---------------------------------------------------------------
 # Misc Theme Settings
@@ -409,7 +399,6 @@ github_banner:
   permalink: https://github.com/yourname
   title: Follow me on GitHub
 
-
 # ---------------------------------------------------------------
 # Font Settings
 # See: https://theme-next.org/docs/theme-settings/#Fonts-Customization
@@ -462,7 +451,6 @@ font:
     external: true
     family:
 
-
 # ---------------------------------------------------------------
 # SEO Settings
 # ---------------------------------------------------------------
@@ -495,7 +483,6 @@ baidu_site_verification:
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.
 baidu_push: false
-
 
 # ---------------------------------------------------------------
 # Third Party Plugins & Services Settings
@@ -569,7 +556,6 @@ quicklink:
   # For more flexibility you can add some patterns (RegExp, Function, or Array) to ignores.
   # See: https://github.com/GoogleChromeLabs/quicklink#custom-ignore-patterns
   ignores:
-
 
 # ---------------------------------------------------------------
 # Comments Settings
@@ -661,7 +647,6 @@ gitalk:
   # Available values: en | es-ES | fr | ru | zh-CN | zh-TW
   language:
 
-
 # ---------------------------------------------------------------
 # Post Widgets & Content Sharing Services
 # See: https://theme-next.org/docs/third-party-services/post-widgets
@@ -671,13 +656,12 @@ gitalk:
 # To get your ID visit https://widgetpack.com
 rating:
   enable: false
-  id:     # <app_id>
-  color:  fc6423
+  id: # <app_id>
+  color: fc6423
 
 # AddThis Share. See: https://www.addthis.com
 # Go to https://www.addthis.com/dashboard to customize your tools.
 add_this_id:
-
 
 # ---------------------------------------------------------------
 # Statistics and Analytics
@@ -727,14 +711,13 @@ firestore:
 # Show Views / Visitors of the website / page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi
 busuanzi_count:
-  enable: false
+  enable: true
   total_visitors: true
   total_visitors_icon: fa fa-user
   total_views: true
   total_views_icon: fa fa-eye
   post_views: true
   post_views_icon: fa fa-eye
-
 
 # ---------------------------------------------------------------
 # Search Services
@@ -769,7 +752,6 @@ local_search:
 # Swiftype Search API Key
 swiftype_key:
 
-
 # ---------------------------------------------------------------
 # Chat Services
 # See: https://theme-next.org/docs/third-party-services/chat-services
@@ -790,7 +772,6 @@ chatra:
 tidio:
   enable: false
   key: # Public Key, get it from dashboard. See: https://www.tidiochat.com/panel/settings/developer
-
 
 # ---------------------------------------------------------------
 # Tags Settings
@@ -830,7 +811,6 @@ mermaid:
   enable: false
   # Available themes: default | dark | forest | neutral
   theme: forest
-
 
 # ---------------------------------------------------------------
 # Animation Settings
@@ -882,7 +862,6 @@ canvas_ribbon:
   size: 300 # The width of the ribbon
   alpha: 0.6 # The transparency of the ribbon
   zIndex: -1 # The display level of the ribbon
-
 
 #! ---------------------------------------------------------------
 #! DO NOT EDIT THE FOLLOWING SETTINGS
