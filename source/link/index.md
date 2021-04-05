@@ -9,6 +9,7 @@ date: 2021-03-18 20:41:05
 - [uhey's blog](http://u-hey.github.io/)
 - [itpika 博客](https://itpika.com)
 - [小丁的个人博客](https://tding.top/)
+- [†少女癌†](https://co5.me/)
 
 > 网站名称: GeekYutu.com
 > 网站描述: 极客玉兔

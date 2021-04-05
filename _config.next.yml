@@ -630,7 +630,7 @@ valine:
 
 # LiveRe comments system
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-livere_uid: MTAyMC81Mjk2Mi8yOTQzOQ==
+# livere_uid: MTAyMC81Mjk2Mi8yOTQzOQ==
 
 # Gitalk
 # For more information: https://gitalk.github.io, https://github.com/gitalk/gitalk
@@ -646,6 +646,12 @@ gitalk:
   # If you want everyone visiting your site to see a uniform language, you can set a force language value
   # Available values: en | es-ES | fr | ru | zh-CN | zh-TW
   language:
+
+twikoo:
+  enable: true
+  visitor: true
+  envId: hello-cloudbase-1g6y9j0tbcc34d2a # 腾讯云环境id
+  # region: ap-guangzhou # 环境地域，默认为 ap-shanghai
 
 # ---------------------------------------------------------------
 # Post Widgets & Content Sharing Services
