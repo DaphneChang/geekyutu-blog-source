@@ -14,7 +14,8 @@ date: 2016-05-07 00:15:09
 
 **一些作品**
 [https://en.pinduoduo.com/](https://en.pinduoduo.com/)
-[http://live.langke.com/](http://live.langke.com/)
+[https://live.langke.com/](https://live.langke.com/)
+[https://m.pinduoduozp.com/campus2019/index.html](https://m.pinduoduozp.com/campus2019/index.html)
 
 **业余爱好**
 尤克里里（学习进度就很慢，只会一些简单的和弦，扫弦扫得不好听，最终目的是为了出弹唱作品）
