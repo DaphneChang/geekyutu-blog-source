@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: GeekYutu.com
+title: GeekYutu.cn
 subtitle: 极客玉兔
-author: 吃不胖的兔爷
-description: coding / 尤克里里 / 养兔子 / 面相
+author: 吃不胖的兔宝
+description: enfp / bunny / music / coding
 language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://geekyutu.com/
+url: https://geekyutu.cn/
 permalink: :year/:month/:title/
 permalink_defaults:
 pretty_urls:
